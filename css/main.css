@@ -22,6 +22,7 @@ html, input, button {
   grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
   background-color: #41177c;
 }
+
 @media screen and (max-width: 600px) {
   .hero {
     display: flex;
@@ -33,16 +34,19 @@ html, input, button {
     padding: 1rem;
   }
 }
+
 .hero-bg {
   background-color: #1b0737;
   grid-column: 1/5;
   grid-row: 1/2;
 }
+
 @media screen and (max-width: 600px) {
   .hero-bg {
     display: none;
   }
 }
+
 .hero-left {
   grid-column: 2/5;
   grid-row: 1/2;
@@ -51,20 +55,24 @@ html, input, button {
   justify-content: center;
   color: #fff;
 }
+
 @media screen and (max-width: 600px) {
   .hero-left {
     align-items: center;
     text-align: center;
   }
 }
+
 .hero-left ::-moz-selection {
   background-color: #fff;
   color: #41177c;
 }
+
 .hero-left ::selection {
   background-color: #fff;
   color: #41177c;
 }
+
 .hero-left .class-number {
   font-size: 1.2rem;
   background-color: #727272;
@@ -74,26 +82,31 @@ html, input, button {
   padding-inline: 0.75rem;
   border-radius: 100vmax;
 }
+
 @media screen and (max-width: 600px) {
   .hero-left .class-number {
     font-size: 1rem;
   }
 }
+
 .hero-left .class-title {
   font-size: calc(3rem + 5vw);
   line-height: 1.1;
   margin-block: 0.25em;
   z-index: 1;
 }
+
 .hero-left .course-name {
   padding-bottom: 0.2em;
   border-bottom: 2px solid #fff;
 }
+
 @media screen and (max-width: 600px) {
   .hero-left .course-name {
     font-size: 0.85rem;
   }
 }
+
 .hero-right {
   grid-column: 4/6;
   grid-row: 1/2;
@@ -101,11 +114,13 @@ html, input, button {
   justify-content: center;
   align-items: center;
 }
+
 .hero-right .logo-js {
   width: 30rem;
   max-width: 100%;
   max-height: 100%;
 }
+
 @media screen and (max-width: 600px) {
   .hero-right .logo-js {
     max-width: 5rem;
@@ -115,15 +130,18 @@ html, input, button {
 #contenido {
   padding: 2rem;
 }
+
 #contenido #titulo {
   margin-bottom: 2rem;
 }
+
 #contenido .form-group {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
+
 #contenido .lista {
   background-color: pink;
   list-style-position: inside;
@@ -134,10 +152,12 @@ html, input, button {
   color: black;
   flex-grow: 1;
 }
+
 #contenido .lista .form {
   display: flex;
   align-items: center;
 }
+
 #contenido .lista .form .form-input {
   border: 0;
   padding: 0.5rem;
@@ -145,9 +165,11 @@ html, input, button {
   border-radius: 0.5rem 0 0 0.5rem;
   width: 100%;
 }
+
 #contenido .lista .form .form-input:focus {
   outline: 0;
 }
+
 #contenido .lista .form .form-submit {
   padding: 0.5rem;
   border: 0;
@@ -156,10 +178,12 @@ html, input, button {
   background-color: rgba(0, 0, 0, 0.15);
   transition: background-color 0.1s, color 0.1s;
 }
+
 #contenido .lista .form .form-submit:hover {
   background-color: #1b0737;
   color: white;
 }
+
 #contenido .lista.lista-abajo .form-input {
   border-radius: 0.5rem;
 }
@@ -173,6 +197,7 @@ html, input, button {
   margin-top: 1.5rem;
   flex-wrap: wrap;
 }
+
 .btn-group .btn {
   border: 0;
   padding: 0.5rem 1rem;
@@ -180,6 +205,7 @@ html, input, button {
   cursor: pointer;
   background-color: pink;
 }
+
 .btn-group .btn:hover {
   background-color: #d9a4ad;
 }
